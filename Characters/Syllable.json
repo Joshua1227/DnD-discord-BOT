@@ -1,0 +1,190 @@
+{
+  "_id":2,
+  "Name": "Syllable",
+  "Class": "Rogue",
+  "Race":"Halfling",
+  "Spell Casting":false,
+  "Base Stats":{
+    "Strength":8,
+    "Dexterity":16,
+    "Constitution":12,
+    "Intelligence":13,
+    "Wisdom":10,
+    "Charisma":16
+  },
+  "factions":{
+    "snake":{
+      "name":"Zhentarim",
+      "renown":1,
+      "rank":"initiate"
+    }
+  },
+  "Armor Class":14,
+  "Initiative":3,
+  "Speed":25,
+  "Saving Throws":{
+    "Strength":-1,
+    "Dexterity":5,
+    "Constitution":1,
+    "Intelligence":3,
+    "Wisdom":0,
+    "Charisma":3
+  },
+  "Skills":{
+    "Acrobatics":5,
+    "Animal Handling":0,
+    "Arcana":1,
+    "Athletics":-1,
+    "Desception":5,
+    "History":1,
+    "Insight":0,
+    "Intimidation":3,
+    "Investigation":3,
+    "Medicine":0,
+    "Nature":1,
+    "Perception":0,
+    "Performance":5,
+    "Persuasion":3,
+    "Religion":1,
+    "Sleight of hand":5,
+    "Stealth":7,
+    "Survival":0
+  },
+  "spells":["you dont have spells dummy"],
+  "equipment":{
+    "short sword":{
+      "name":"Shortsword",
+      "tags":["weapon"],
+      "attack bonus":5,
+      "damage":"1d6+3",
+      "quant":1
+    },
+    "shortbow":{
+      "name":"Shortbow",
+      "tags":["weapon"],
+      "attack bonus":5,
+      "damage":"1d6+3",
+      "notes":"You can shoot your shortbow 80 feet, or up to 320 feet with disadvantage on the attack roll.",
+      "quant":1
+    },
+    "leather armor":{
+      "name":"Leather Armor",
+      "tags":["clothes","armor"],
+      "quant":1
+    },
+    "thieves tools":{
+      "name":"Thieves’ Tools,",
+      "tags":["tools","misc"],
+      "quant":1
+    },
+    "backpack":{
+      "name":"Backpack",
+      "tags":["storage"],
+      "quant":1
+    },
+    "bell":{
+      "name":"Bell",
+      "tags":["misc","sound"],
+      "quant":1
+    },
+    "candles":{
+      "name":"Candles",
+      "tags":["misc","light"],
+      "quant":5
+    },
+    "crowbar":{
+      "name":"Crowbar",
+      "tags":["misc","tool"],
+      "quant":2
+    },
+    "hammer":{
+      "name":"Hammer",
+      "tags":["tools","misc"],
+      "quant":1
+    },
+    "piton":{
+      "name":"Piton",
+      "tags":["misc","climb"],
+      "quant":10
+    },
+    "Rope":{
+      "name":"Hempen Rope (50 feet)",
+      "tags":["misc","tool","climb"],
+      "quant":1
+    },
+    "Lantern":{
+      "name":"Hooded Lantern",
+      "tags":["misc","light","fire","tools"],
+      "quant":1
+    },
+    "oil":{
+      "name":"flasks of oil",
+      "tags":["misc","flamable"],
+      "quant":2
+    },
+    "rations":{
+      "name":"a days worth rations",
+      "tags":["food","misc"],
+      "quant":5
+    },
+    "tinderbox":{
+      "name":"Tinderbox",
+      "tags":["misc","fire","tools"],
+      "quant":1
+    },
+    "waterskin":{
+      "name":"Waterskin",
+      "tags":["misc","food","water"],
+      "quant":1
+    },
+    "dark common clothes":{
+      "name":"Set of dark common clothes (including a hood)",
+      "tags":["misc","clothes","stealth"],
+      "quant":1
+    },
+    "pouch":{
+      "name":"Pouch",
+      "tags":["misc","storage"],
+      "quant":1
+    }
+  },
+  "abilities":{
+    "Sneak Attack":{
+      "name":"Sneak Attack",
+      "description":"Once per turn, when you hit a creature with a Dexterity-based attack (such as with your shortsword or shortbow) and you have advantage on the attack roll, you can deal an extra 1d6 damage to your target. You don’t need advantage if another enemy of the target is within 5 feet of it and isn’t incapacitated. You can’t deal the extra damage, however, if you have disadvantage on the attack roll."
+    },
+    "Thieves’ Cant":{
+      "name":"Thieves’ Cant",
+      "description":"You know thieves’ cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. You also understand a set of secret signs and symbols used to convey short, simple messages, such as whether an area is dangerous, whether loot is nearby, or whether the people in an area are easy marks or will provide a safe house for thieves on the run."
+    },
+    "Lucky":{
+      "name":"Lucky",
+      "description":"When you roll a natural 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll."
+    },
+    "Brave":{
+      "name":"Brave",
+      "description":"You have advantage on saving throws against being frightened."
+    },
+    "Halfling Nimbleness":{
+      "name":"Halfling Nimbleness",
+      "description":"You can move through the space of any creature that is of a size larger than yours."
+    },
+
+    "Naturally Stealthy":{
+      "name":"Naturally Stealthy",
+      "description":"You can attempt to hide when you are obscured by a creature that is at least one size larger than you."
+    },
+    "Criminal Contact":{
+      "name":"Criminal Contact",
+      "description":"You have a contact who acts as your liaison to a network of other criminals. You know how to get messages to and from your contact, even over great distances; you know the local messengers, corrupt caravan masters, and seedy sailors who can carry messages for you. You can move secret information or stolen goods through your contact in exchange for money or other information you seek."
+    },
+    "Cunning Action":{
+      "name":"Cunning Action",
+      "description":"Your quick thinking and agility allow you to move and act quickly, so you can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action."
+    }
+  },
+  "laguages":["common","halfling"],
+  "proficiencies":["light armor","hand crossbows","simple weapons","rapiers","thieves' tools","playing cards","carpenters tools"],
+  "passive wisdom (perception)":10,
+  "Max Health": 14
+}

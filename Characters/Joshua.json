@@ -1,0 +1,173 @@
+{
+  "_id":0,
+  "Name": "Joshua",
+  "Class": "Wizard",
+  "Race":"High Elf",
+  "Spell Casting":true,
+  "Base Stats":{
+    "Strength":10,
+    "Dexterity":15,
+    "Constitution":14,
+    "Intelligence":16,
+    "Wisdom":12,
+    "Charisma":8
+  },
+  "factions":{
+    "force gray":{
+      "name":"The Gray Hands (Force Gray)",
+      "renown":1,
+      "rank":"initiate"
+    }
+  },
+  "Armor Class":12,
+  "Initiative":2,
+  "Speed":30,
+  "Saving Throws":{
+    "Strength":0,
+    "Dexterity":2,
+    "Constitution":2,
+    "Intelligence":5,
+    "Wisdom":3,
+    "Charisma":-1
+  },
+  "Skills":{
+    "Acrobatics":2,
+    "Animal Handling":1,
+    "Arcana":5,
+    "Athletics":0,
+    "Desception":-1,
+    "History":3,
+    "Insight":3,
+    "Intimidation":-1,
+    "Investigation":5,
+    "Medicine":1,
+    "Nature":3,
+    "Perception":3,
+    "Performance":-1,
+    "Persuasion":-1,
+    "Religion":5,
+    "Sleight of hand":2,
+    "Stealth":2,
+    "Survival":1
+  },
+  "spells":["ray of frost","witch bolt","charm person","find familiar","mage hand","prestigation","shocking grasp"
+    ,"burning hands","detect magic","mage armor","magic missile","shield","sleep"],
+  "equipment":{
+    "short sword":{
+      "name":"short sword",
+      "tags":["weapon"],
+      "damage":"1d6",
+      "quant":1
+    },
+    "component pouch":{
+      "name":"component pouch",
+      "tags":["misc","magic"],
+      "quant":1
+    },
+    "spell book":{
+      "name":"spell book",
+      "tags":["magic","book"],
+      "quant":1
+    },
+    "backpack":{
+      "name":"backpack",
+      "tags":["storage"],
+      "quant":1
+    },
+    "bottle of ink":{
+      "name":"bottle of ink",
+      "tags":["misc","write"],
+      "quant":1
+    },
+    "ink pen":{
+      "name":"ink pen",
+      "tags":["misc","write"],
+      "quant":1
+    },
+    "sheet of parchment":{
+      "name":"sheet of parchment",
+      "tags":["misc","write"],
+      "quant":10
+    },
+    "small knife":{
+      "name":"small knife",
+      "tags":["weapon","cook","cut"],
+      "quant":1
+    },
+    "tome of historical lore":{
+      "name":"tome of historical lore",
+      "tags":["book","history","knowlege"],
+      "quant":1
+    },
+    "holy symbol":{
+      "name":"holy symbol",
+      "tags":["misc","religion"],
+      "quant":1
+    },
+    "prayer book":{
+      "name":"sheet of parchment",
+      "tags":["misc","religion","write"],
+      "quant":1
+    },
+    "set of common clothes":{
+      "name":"set of common clothes",
+      "tags":["clothes","misc","wearable"],
+      "quant":1
+    },
+    "pouch":{
+      "name":"pouch",
+      "tags":["money","storage","misc"],
+      "quant":1
+    },
+    "formal clothes":{
+      "name":"Formal Clothes",
+      "tags":["clothes","wearable","wealthy"],
+      "quant":1
+    }
+  },
+  "abilities":{
+    "spellcasting":{
+      "name":"Spell Casting Ability",
+      "description":"Intelligence is your spellcasting ability for your spells. The saving throw DC to resist a spell you cast is 13. Your attack bonus when you make an attack with a spell is +5."
+    },
+    "darkvision":{
+      "name":"Darkvision",
+      "description":"You see in dim light within a 60-foot radius of you as if it were bright light, and in darkness in that radius as if it were dim light. You can’t discern color in darkness, only shades of gray."
+    },
+    "fey ancestry":{
+      "name":"Fey Ancestry",
+      "description":"You have advantage on saving throws against being charmed, and magic can’t put you to sleep."
+    },
+    "trance":{
+      "name":"Trance",
+      "description":"Elves don’t need to sleep. They meditate deeply, remaining semiconscious, for 4 hours a day and gain the same benefit a human does from 8 hours of sleep."
+    },
+    "spellcasting":{
+      "name":"Spell Casting Ability",
+      "description":"Intelligence is your spellcasting ability for your spells. The saving throw DC to resist a spell you cast is 13. Your attack bonus when you make an attack with a spell is +5."
+    },
+    "shelter of the faithful":{
+      "name":"Shelter of the Faithful",
+      "description":"As a servant of Oghma, you command the respect of those who share your faith, and you can perform the rites of Oghma. You and your companions can expect to receive free healing and care at a temple, shrine, or other established presence of Oghma’s faith. Those who share your religion will support you (and only you) at a modest lifestyle. You also have ties to the temple of Oghma in Neverwinter, where you have a residence. When you are in Neverwinter, you can call upon the priests there for assistance that won’t endanger them."
+    },
+    "evocation savant":{
+      "name":"Evocation Savant",
+      "description":"The gold and time you must spend to copy an evocation spell into your spellbook is halved."
+    },
+    "sculpt spells":{
+      "name":"Sculpt Spells.",
+      "description":"When you cast an evocation spell that affects other creatures you can see, you can choose a number of them equal to 1 + the spell’s level. The chosen creatures automatically succeed on their saving throws against the spell, and they take no damage if they would normally take half damage from it."
+    }
+  },
+  "laguages":["common","elvish","draconic","dwarvish","goblin"],
+  "proficiencies":["daggers","darts","light crossbows","quarterstaffs","shortbows","shortswords","slings"],
+  "passive wisdom (perception)":13,
+  "Max Health": 13,
+  "Max Spell Slots":{
+    "Level 1":{
+      "name":"Level 1",
+      "quant":3
+  }
+
+}
+}

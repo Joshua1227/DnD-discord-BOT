@@ -1,0 +1,154 @@
+{
+  "_id":1,
+  "Name": "Pearl",
+  "Class": "Fighter",
+  "Race":"Human",
+  "Spell Casting":false,
+  "Base Stats":{
+    "Strength":16,
+    "Dexterity":9,
+    "Constitution":15,
+    "Intelligence":11,
+    "Wisdom":13,
+    "Charisma":14
+  },
+  "factions":{
+    "lords":{
+      "name":"The Lords Alliance",
+      "renown":0,
+      "rank":"initiate"
+    },
+    "harper":{
+      "name":"Harpers",
+      "renown":0,
+      "rank":"initiate"
+    }
+  },
+  "Armor Class":17,
+  "Initiative":-1,
+  "Speed":30,
+  "Saving Throws":{
+    "Strength":5,
+    "Dexterity":-1,
+    "Constitution":4,
+    "Intelligence":0,
+    "Wisdom":1,
+    "Charisma":2
+  },
+  "Skills":{
+    "Acrobatics":-1,
+    "Animal Handling":1,
+    "Arcana":0,
+    "Athletics":5,
+    "Desception":2,
+    "History":2,
+    "Insight":1,
+    "Intimidation":2,
+    "Investigation":0,
+    "Medicine":1,
+    "Nature":0,
+    "Perception":3,
+    "Performance":2,
+    "Persuasion":4,
+    "Religion":0,
+    "Sleight of hand":-1,
+    "Stealth":-1,
+    "Survival":1
+  },
+  "spells":["you dont have spells dummy"],
+  "equipment":{
+    "grataxe":{
+      "name":"Great Axe",
+      "tags":["weapon"],
+      "attack bonus":5,
+      "damage":"1d12+3",
+      "quant":1
+    },
+    "javelin":{
+      "name":"Javelin",
+      "tags":["weapon"],
+      "attack bonus":5,
+      "damage":"1d6+3",
+      "notes":"You can throw a javelin 30 feet, or up to 120 feet with disadvantage on the attack roll.",
+      "quant":3
+    },
+    "chainmail":{
+      "name":"Chain Mail",
+      "tags":["clothes","armor"],
+      "notes":"you have disadvantage on stealth when wearing this",
+      "quant":1
+    },
+    "backpack":{
+      "name":"backpack",
+      "tags":["storage"],
+      "quant":1
+    },
+    "bllanket":{
+      "name":"Blanket",
+      "tags":["misc","sleep","clothes"],
+      "quant":1
+    },
+    "tinderbox":{
+      "name":"Tinder Box",
+      "tags":["misc","fire"],
+      "quant":1
+    },
+    "rations":{
+      "name":"Rations (worth a day)",
+      "tags":["misc","food"],
+      "quant":2
+    },
+    "waterskin":{
+      "name":"Water Skin",
+      "tags":["misc","water","food"],
+      "quant":1
+    },
+    "set of fine clothes":{
+      "name":"Set of Fine Clothes",
+      "tags":["clothes","misc","wearable"],
+      "quant":1
+    },
+    "signet ring":{
+      "name":"Signet Ring",
+      "tags":["misc","wealth","personal"],
+      "quant":1
+    },
+    "prayer book":{
+      "name":"sheet of parchment",
+      "tags":["misc","religion","write"],
+      "quant":1
+    },
+    "scroll of pedigree":{
+      "name":"Scroll of Pedigree",
+      "tags":["misc","wealth","personal"],
+      "quant":1
+    },
+    "formal clothes":{
+      "name":"Formal Clothes",
+      "tags":["clothes","wearable","wealthy"],
+      "quant":1
+    }
+  },
+  "abilities":{
+    "second wind":{
+      "name":"Second Wind",
+      "description":"You have a limited well of stamina you can draw on to protect yourself from harm. You can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again."
+    },
+    "fighting style":{
+      "name":"Fighting Style (Defense)",
+      "description":"While you are wearing armor, you gain a +1 bonus to AC. This bonus is already included in your AC."
+    },
+    "position of privilege":{
+      "name":"Position of Privilege.",
+      "description":"Thanks to your noble birth, people are inclined to think the best of you. You are welcome in high society, and people assume you have the right to be wherever you are. The common folk make every effort to accommodate you and avoid your displeasure, and other people of high birth treat you as a member of the same social sphere. You can secure an audience with a local noble if you need to."
+    },
+    "action surge":{
+      "name":"Action Surge",
+      "description":"You can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again."
+    }
+  },
+  "laguages":["common","draconic","dwarvish"],
+  "proficiencies":["all armor","shields","simple weapons","marial weapons","playing cards"],
+  "passive wisdom (perception)":13,
+  "Max Health": 19
+}

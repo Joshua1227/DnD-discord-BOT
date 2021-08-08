@@ -1,0 +1,224 @@
+{
+  "_id":3,
+  "Name": "Rose",
+  "Class": "Cleric",
+  "Race":"Hill Dwarf",
+  "Spell Casting":true,
+  "Base Stats":{
+    "Strength":14,
+    "Dexterity":8,
+    "Constitution":15,
+    "Intelligence":10,
+    "Wisdom":16,
+    "Charisma":12
+  },
+  "factions":{
+    "lords":{
+      "name":"The Lords Alliance",
+      "renown":0,
+      "rank":"initiate"
+    },
+    "harper":{
+      "name":"Harpers",
+      "renown":0,
+      "rank":"initiate"
+    }
+  },
+  "Armor Class":18,
+  "Initiative":-1,
+  "Speed":25,
+  "Saving Throws":{
+    "Strength":2,
+    "Dexterity":-1,
+    "Constitution":2,
+    "Intelligence":0,
+    "Wisdom":5,
+    "Charisma":3
+  },
+  "Skills":{
+    "Acrobatics":-1,
+    "Animal Handling":3,
+    "Arcana":0,
+    "Athletics":4,
+    "Desception":1,
+    "History":0,
+    "Insight":3,
+    "Intimidation":3,
+    "Investigation":0,
+    "Medicine":5,
+    "Nature":0,
+    "Perception":3,
+    "Performance":1,
+    "Persuasion":1,
+    "Religion":2,
+    "Sleight of hand":-1,
+    "Stealth":-1,
+    "Survival":3
+  },
+  "spells":["light","sacred flame","thaumaturgy","bless","cure wounds","command","shield of faith"
+    ,"guiding bolt","create or destroy water","turn undead (channel divinity)","preserve life (channel divinity)"],
+  "equipment":{
+    "war hammer":{
+      "name":"Warhammer",
+      "tags":["weapon"],
+      "attack bonus":4,
+      "damage":"1d8+2",
+      "quant":1
+    },
+    "hand axe":{
+      "name":"Hand Axe",
+      "tags":["weapon"],
+      "notes":"You can throw a handaxe 20 feet, or up to 60 feet with disadvantage on the attack roll.",
+      "quant":2
+    },
+    "chainmail":{
+      "name":"Chain Mail",
+      "tags":["clothes","armor"],
+      "notes":"While wearing this armor, you have disadvantage on Dexterity (Stealth) checks.",
+      "quant":1
+    },
+    "shield":{
+      "name":"Shield",
+      "tags":["weapon","armor"],
+      "quant":1
+    },
+    "holy symbol":{
+      "name":"Holy Symbol,",
+      "tags":["misc","religion"],
+      "quant":1
+    },
+    "backpack":{
+      "name":"Backpack",
+      "tags":["misc","storage"],
+      "quant":1
+    },
+    "crowbar":{
+      "name":"Crowbar",
+      "tags":["misc","tools"],
+      "quant":10
+    },
+    "hammer":{
+      "name":"Hammer",
+      "tags":["Tools","misc"],
+      "quant":1
+    },
+    "piton":{
+      "name":"Piton",
+      "tags":["misc","climb"],
+      "quant":10
+    },
+    "torch":{
+      "name":"Torch",
+      "tags":["misc","light","fire"],
+      "quant":10
+    },
+    "tinderbox":{
+      "name":"Tinderbox",
+      "tags":["misc","fire"],
+      "quant":1
+    },
+    "rations":{
+      "name":"Rations (a days worth)",
+      "tags":["food","misc"],
+      "quant":10
+    },
+    "waterskin":{
+      "name":"waterskin",
+      "tags":["water","storage","misc"],
+      "quant":1
+    },
+    "formal clothes":{
+      "name":"Formal Clothes",
+      "tags":["clothes","wearable","wealthy"],
+      "quant":1
+    },
+    "rope":{
+      "name":"50 feet of Hempen rope",
+      "tags":["misc","climb","tie"],
+      "quant":1
+    },
+    "masons tools":{
+      "name":"Masons Tools",
+      "tags":["misc","tools"],
+      "quant":1
+    },
+    "dagger":{
+      "name":"Dagger taken from fallen enemy",
+      "tags":["weapon","misc","tropy"],
+      "quant":1
+    },
+    "cards":{
+      "name":"Deck of playing cards",
+      "tags":["play","cards","game","misc"],
+      "quant":1
+    },
+    "clothes":{
+      "name":"Set of common clothes",
+      "tags":["misc","clothes"],
+      "quant":1
+    },
+    "pouch":{
+      "name":"Pouch",
+      "tags":["storage","misc","tropy"],
+      "quant":1
+    },
+    "insignia":{
+      "name":"Rank Insignia (sergeant)",
+      "tags":["rank","mercenary","insignia","misc"],
+      "quant":1
+    }
+  },
+  "abilities":{
+    "spellcasting":{
+      "name":"Spell Casting Ability",
+      "description":"Wisdom is your spellcasting ability for your spells. The saving throw DC to resist a spell you cast is 13. Your attack bonus when you make an attack with a spell is +5. See the rulebook for rules on casting your spells."
+    },
+    "disciple of life":{
+      "name":"Disciple of Life",
+      "description":"Your healing spells are particularly effective. Whenever you restore hit points to a creature with a spell of 1st level or higher,  the creature regains additional hit points equal to 2 + the spell’s level."
+    },
+    "darkvison":{
+      "name":"Darkvision",
+      "description":"ou see in dim light within a 60-foot radius of you as if it were bright light, and in darkness in that radius as if it were dim light. You can’t discern color in darkness, only shades of gray."
+    },
+    "Dwarven Rsiliance":{
+      "name":"Dwarven Resilience",
+      "description":"You have advantage on saving throws against poison, and you have resistance against poison damage."
+    },
+    "Dwarven Toughness":{
+      "name":"Dwarven Toughness",
+      "description":"Your hit point maximum increases by 1, and it increases by 1 every time you gain a level (included)."
+    },
+    "Mercenary Sergeant":{
+      "name":"Mercenary Sergeant",
+      "description":"You were a minor officer among the Mintarn mercenaries, a position that still gets you some perks. Even though you’re not on active duty, Mintarn soldiers recognize your authority and influence, and they defer to you if they are of a lower rank. You can requisition simple equipment and horses for temporary use. You can also gain access to Mintarn mercenary encampments and fortresses."
+    },
+    "Channel Divinity":{
+      "name":"Channel Divinity.",
+      "description":"You can channel divine energy directly from your deity, using that energy to fuel one of two magical effects: Turn Undead or Preserve Life. Both effects require you to use an action and present your holy symbol. When you use your Channel Divinity, you choose which effect to create. You must then finish a short or long rest to use your Channel Divinity again."
+    },
+    "Turn Undead":{
+      "name":"Turn Undead",
+      "description":"When you use Turn Undead, each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw (DC 13). If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage. A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can use the Dodge action. Preserve Life. When you use Preserve Life, choose one or more"
+    },
+    "Preserve Life":{
+      "name":"Preserve Life",
+      "description":"When you use Preserve Life, choose one or more creatures within 30 feet of you to heal, then distribute up to 10 hit points among them. This feature can restore a creature to no more than half of its hit point maximum. At 3rd level, you can distribute 15 hit points, at 4th level 20, and at 5th level 25."
+    },
+    "Stonecunning":{
+      "name":"Stonecunning",
+      "description":"Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+    }
+  },
+  "laguages":["common","dwarvish"],
+  "proficiencies":["all armor","shields","all simple weapons","battle axes","hand axes","light hammers","war hammers","playing cards","masons tools","vehicles (land)"],
+  "passive wisdom (perception)":13,
+  "Max Health": 18,
+  "Max Spell Slots":{
+    "Level 1":{
+      "name":"Level 1",
+      "quant":3
+  }
+
+}
+}

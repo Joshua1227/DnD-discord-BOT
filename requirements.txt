@@ -1,0 +1,9 @@
+discord.py
+PyNaCl
+requests
+dnspython
+async-timeout
+oauth2client
+gspread
+dnspython
+pymongo
